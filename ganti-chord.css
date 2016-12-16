@@ -1,0 +1,35 @@
+.chord1, .chord2, .chord3, #ganti-chord {
+    border-radius: 2px 2px 2px 2px;
+    text-align: center;
+    color: #595959;
+    padding: 15.5px 8px 8px 8px;
+    border: none;
+    background-color: #d9d9d9;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    height: 30px;    
+    font: 110% Arial;
+}
+#ganti-chord {
+    border-bottom: 2px solid white;
+    }
+#ganti-chord:visited {
+    background: #808080;
+    }
+.chord1:hover, .chord2:hover, .chord3:hover, #ganti-chord:hover {
+    color: #f1f1f1;
+    background: #808080;
+    border: none;
+    text-decoration: none;
+    box-shadow:  0 0.5px 2px rgba(0,0,0,0.12), 0 0.5px 1px rgba(0,0,0,0.24);
+    cursor: pointer;
+}
+
+.chord1, .chord2, .chord3 {
+    display: none;
+}
+.isichord2, .isichord3 {
+   display: none;
+}
