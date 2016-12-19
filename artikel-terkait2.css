@@ -1,0 +1,25 @@
+#related-posts { background-color: #ffffff; width: 550px; overflow: auto; height: 200px; border: none; margin: 0 auto; }
+#related-posts .widget { list-style: none; : 5px 0 5px 0; padding : 0; } 
+#related-posts .widget h2, #related-posts h2 { font-size : 20px; font-weight : normal; margin : 5px 7px 0; padding : 0 0 5px; } 
+#related-posts a { 
+    border-left: 10px solid #cccccc;
+    border-bottom: 1px dotted #cccccc;
+    padding: 7px;
+    text-decoration : none; 
+    color: #4d4d4d; 
+} 
+#related-posts a:hover { border-left: 10px solid #8c8c8c; color: #1a1a1a; text-decoration: none; } 
+#related-posts a:visited { border-left: 10px solid #8c8c8c; color: #000000; }
+#related-posts ul { border : medium none; margin : 10px; padding : 0; } 
+#related-posts ul li { list-style: none; font: 15px Arial; display : block; padding: 0 0 1px 5px; margin-bottom : 5px; line-height : 2em;}
+#related-posts-h2 {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    border: 1px solid #333333; 
+    background: #333333; 
+    font: bold 16px Arial black;
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+    color: #F1F1F1;
+  }
