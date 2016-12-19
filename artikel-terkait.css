@@ -9,7 +9,7 @@
     color: #4d4d4d; 
 } 
 #related-posts a:hover { border-left: 10px solid #8c8c8c; color: #1a1a1a; text-decoration: none; } 
-#related-posts a:visited { border-left: 10px solid #333333; color: #1a1a1a; }
+#related-posts a:visited { border-left: 10px solid #8c8c8c; color: #000000; }
 #related-posts ul { border : medium none; margin : 10px; padding : 0; } 
 #related-posts ul li { list-style: none; font: 15px Arial; display : block; padding: 0 0 1px 5px; margin-bottom : 5px; line-height : 2em;}
 #related-posts-h2 {
