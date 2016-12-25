@@ -1,0 +1,52 @@
+span#blog-pager-older-link, span#blog-pager-newer-link, span#home-link  {
+  border-radius: 0px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0;
+}
+
+span#blog-pager-older-link a.blog-pager-older-link, span#blog-pager-newer-link a.blog-pager-newer-link, span#home-link a.home-link {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+span#blog-pager-older-link a.blog-pager-older-link:after, span#blog-pager-newer-link a.blog-pager-newer-link:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+span#blog-pager-older-link a.blog-pager-older-link:after {
+  content: '\00bb';
+  right: -20px;
+  }
+span#blog-pager-newer-link a.blog-pager-newer-link:after {
+  content: '\00ab';
+  left: -20px;
+  }
+span#blog-pager-older-link:hover a.blog-pager-older-link, span#blog-pager-newer-link:hover a.blog-pager-newer-link, span#home-link a.home-link {
+  text-decoration: none;
+}
+span#blog-pager-older-link:hover a.blog-pager-older-link {
+  padding-right: 15px;
+  }
+span#blog-pager-newer-link:hover a.blog-pager-newer-link {
+  padding-left: 15px;
+  }
+span#blog-pager-older-link:hover a.blog-pager-older-link:after, span#blog-pager-newer-link:hover a.blog-pager-newer-link:after {
+  opacity: 1;
+}
+span#blog-pager-older-link:hover a.blog-pager-older-link:after {
+  right: 0;
+  }
+span#blog-pager-newer-link:hover a.blog-pager-newer-link:after {
+  left: 0;
+  }
